@@ -13,7 +13,7 @@ struct CertifyingFinishedView: View {
 
     @StateObject var mainViewModel = ChallengeMainViewModel()
     
-    var stopLottieView = LottieView(filename: "TimerStopLottie", loopMode: .playOnce)
+    var stopLottieView = LottieView(filename: "ChallengeCompleteLottie", loopMode: .playOnce)
     
     var body: some View {
         VStack{
