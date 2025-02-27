@@ -109,7 +109,15 @@ iOSInjectionProject/
 
 # End of https://www.toptal.com/developers/gitignore/api/xcode,swift,firebase
 
-# GoogleService-Info.plist
+# Firebase 및 iOS 설정 파일
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+Info.plist
+**/Info.plist
+TeemonDeo.entitlements
+**/TeemonDeo.entitlements
+
+# macOS 시스템 파일
 .DS_Store
 ._.DS_Store
 **/.DS_Store
