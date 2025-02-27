@@ -93,7 +93,6 @@
 		ADBBF01E2C882CD900D1E73F /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBBF01D2C882CD900D1E73F /* AuthenticationManager.swift */; };
 		ADBBF0202C882CF500D1E73F /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBBF01F2C882CF500D1E73F /* UserManager.swift */; };
 		ADCD09AA2D703BD30061CD50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADCD09A72D703BD30061CD50 /* GoogleService-Info.plist */; };
-		ADCD09AB2D703BD30061CD50 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADCD09A82D703BD30061CD50 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -604,7 +603,6 @@
 				AD13C8612C5CBC3400B87781 /* SUIT-Thin.otf in Resources */,
 				AD13C8632C5CBC3400B87781 /* SUIT-Medium.otf in Resources */,
 				ADCD09AA2D703BD30061CD50 /* GoogleService-Info.plist in Resources */,
-				ADCD09AB2D703BD30061CD50 /* Info.plist in Resources */,
 				AD13C8722C5CC63D00B87781 /* Pretendard-Regular.otf in Resources */,
 				5B1936052C5B2576001AC5B2 /* backgroundMusic.mp3 in Resources */,
 				5B1935BF2C59E062001AC5B2 /* TimerStopLottie.json in Resources */,
