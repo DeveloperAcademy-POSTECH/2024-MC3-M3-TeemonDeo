@@ -26,7 +26,6 @@
 		8B75431C2C588A8C00B1C53D /* SignInGoogleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75431B2C588A8C00B1C53D /* SignInGoogleHelper.swift */; };
 		8B75431E2C588AAB00B1C53D /* SignInAppleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75431D2C588AAB00B1C53D /* SignInAppleHelper.swift */; };
 		8B7543202C588AD600B1C53D /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75431F2C588AD600B1C53D /* SettingViewModel.swift */; };
-		8B7543232C588D8E00B1C53D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B7543222C588D8E00B1C53D /* GoogleService-Info.plist */; };
 		8B7543272C588E0100B1C53D /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7543262C588E0100B1C53D /* GoogleSignIn */; };
 		8B7543292C588E0100B1C53D /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7543282C588E0100B1C53D /* GoogleSignInSwift */; };
 		8BAD01212C59CF2D002EC402 /* ChallengeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD01202C59CF2D002EC402 /* ChallengeUser.swift */; };
@@ -93,6 +92,8 @@
 		ADB8C4722C4F7F4400D5B9BC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ADB8C4712C4F7F4400D5B9BC /* FirebaseStorage */; };
 		ADBBF01E2C882CD900D1E73F /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBBF01D2C882CD900D1E73F /* AuthenticationManager.swift */; };
 		ADBBF0202C882CF500D1E73F /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBBF01F2C882CF500D1E73F /* UserManager.swift */; };
+		ADCD09AA2D703BD30061CD50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADCD09A72D703BD30061CD50 /* GoogleService-Info.plist */; };
+		ADCD09AB2D703BD30061CD50 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADCD09A82D703BD30061CD50 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,9 +116,6 @@
 		8B75431B2C588A8C00B1C53D /* SignInGoogleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInGoogleHelper.swift; path = TeemonDeo/Features/Authentication/Services/SignInGoogleHelper.swift; sourceTree = SOURCE_ROOT; };
 		8B75431D2C588AAB00B1C53D /* SignInAppleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInAppleHelper.swift; path = TeemonDeo/Features/Authentication/Services/SignInAppleHelper.swift; sourceTree = SOURCE_ROOT; };
 		8B75431F2C588AD600B1C53D /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingViewModel.swift; path = TeemonDeo/Features/Settings/ViewModels/SettingViewModel.swift; sourceTree = SOURCE_ROOT; };
-		8B7543212C588CFC00B1C53D /* TeemonDeo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeemonDeo.entitlements; sourceTree = "<group>"; };
-		8B7543222C588D8E00B1C53D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8B7543242C588DA200B1C53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BAD01202C59CF2D002EC402 /* ChallengeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeUser.swift; sourceTree = "<group>"; };
 		8BAD01262C59D0FE002EC402 /* AuthDataResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataResultModel.swift; sourceTree = "<group>"; };
 		8BF2D1632C5BEB1A0068A71E /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
@@ -178,6 +176,9 @@
 		ADB8C4612C4F7E3000D5B9BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADBBF01D2C882CD900D1E73F /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthenticationManager.swift; path = TeemonDeo/Features/Authentication/AuthenticationManager.swift; sourceTree = SOURCE_ROOT; };
 		ADBBF01F2C882CF500D1E73F /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserManager.swift; path = TeemonDeo/Features/Authentication/UserManager.swift; sourceTree = SOURCE_ROOT; };
+		ADCD09A72D703BD30061CD50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADCD09A82D703BD30061CD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCD09A92D703BD30061CD50 /* TeemonDeo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeemonDeo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,13 +226,13 @@
 		ADB8C4592C4F7E2F00D5B9BC /* TeemonDeo */ = {
 			isa = PBXGroup;
 			children = (
-				8B7543242C588DA200B1C53D /* Info.plist */,
-				8B7543222C588D8E00B1C53D /* GoogleService-Info.plist */,
-				8B7543212C588CFC00B1C53D /* TeemonDeo.entitlements */,
 				ADB8C47A2C4F801E00D5B9BC /* Core */,
 				ADBBF00E2C88288100D1E73F /* Features */,
 				ADBBF0252C882DE700D1E73F /* Shared */,
 				ADB8C4602C4F7E3000D5B9BC /* Preview Content */,
+				ADCD09A72D703BD30061CD50 /* GoogleService-Info.plist */,
+				ADCD09A82D703BD30061CD50 /* Info.plist */,
+				ADCD09A92D703BD30061CD50 /* TeemonDeo.entitlements */,
 			);
 			path = TeemonDeo;
 			sourceTree = "<group>";
@@ -602,9 +603,10 @@
 				AD13C8742C5CC63D00B87781 /* Pretendard-Thin.otf in Resources */,
 				AD13C8612C5CBC3400B87781 /* SUIT-Thin.otf in Resources */,
 				AD13C8632C5CBC3400B87781 /* SUIT-Medium.otf in Resources */,
+				ADCD09AA2D703BD30061CD50 /* GoogleService-Info.plist in Resources */,
+				ADCD09AB2D703BD30061CD50 /* Info.plist in Resources */,
 				AD13C8722C5CC63D00B87781 /* Pretendard-Regular.otf in Resources */,
 				5B1936052C5B2576001AC5B2 /* backgroundMusic.mp3 in Resources */,
-				8B7543232C588D8E00B1C53D /* GoogleService-Info.plist in Resources */,
 				5B1935BF2C59E062001AC5B2 /* TimerStopLottie.json in Resources */,
 				AD13C81F2C5B368200B87781 /* LaundryOTF_Regular.otf in Resources */,
 				AD13C81E2C5B368200B87781 /* LaundryOTF_Bold.otf in Resources */,
